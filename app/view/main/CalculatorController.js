@@ -12,6 +12,6 @@ Ext.define('TestTesting.view.main.CalculatorController', {
     },
 
     add: function(a, b) {
-        return 4;
+        return a+b;
     }
 });
