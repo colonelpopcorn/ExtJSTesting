@@ -5,7 +5,9 @@
   "license": "Aptean",
   "private": true,
   "devDependencies": {
-    "mocha": "^5.1.1"
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "mocha-chrome": "^1.1.0"
   },
   "scripts": {
     "test": "mocha --recursive"
