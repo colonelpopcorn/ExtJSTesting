@@ -15,7 +15,8 @@ Ext.define('TestTesting.view.main.Main', {
 
         'TestTesting.view.main.MainController',
         'TestTesting.view.main.MainModel',
-        'TestTesting.view.main.List'
+        'TestTesting.view.main.List',
+        'TestTesting.view.main.Calculator'
     ],
 
     controller: 'main',
@@ -83,22 +84,10 @@ Ext.define('TestTesting.view.main.Main', {
             xtype: 'mainlist'
         }]
     }, {
-        title: 'Users',
-        iconCls: 'fa-user',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
-        title: 'Groups',
-        iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
-        }
-    }, {
         title: 'Settings',
         iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        items: [{
+            xtype: 'calculator'
+        }]
     }]
 });
