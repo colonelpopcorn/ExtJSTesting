@@ -1,0 +1,21 @@
+<!doctype>
+<html>
+  <head>
+    <title>Test</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../node_modules/chai/chai.js"></script>
+    <script src="../ext/build/ext-all.js"></script>
+    <script src="../app/view/main/CalculatorController.js"></script>
+    <script src="./CalculatorController.Tests.js"></script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script>
+      assert = chai.assert;
+
+      mocha.run();
+    </script>
+  </body>
+</html>
